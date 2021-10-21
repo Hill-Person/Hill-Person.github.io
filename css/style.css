@@ -1,14 +1,17 @@
 .projects-container {
     text-justify: center;
+    min-height: 100vh;
 }
 
 body {
     font-family: monospace;
     line-height: 1.4em;
     color: black;
+    min-height: 100vh;
 }
 
 .about-me-container {
     text-justify: center;
+    min-height: 100vh;
 }
 
