@@ -28,20 +28,14 @@ body h1 {
     align-items: center;
 }
 
-.header {
-    justify-content: center;
-    width: 100%;
-    height: 60px;
-    background-color: lemonchiffon;
-}
-
-.header > .main-nav > a{
-
-    display: flex;
+.main-nav > a{
+    justify-content: space-around;
+    display: inline-flex;
     margin: 20px;
     color: black;
     text-decoration: none;
     font-size: 1em;
+    padding: 5px;
 }
 
 .h1container {
@@ -61,17 +55,16 @@ body h1 {
     width: 75%;
     min-height: 100px;
     background-color: lemonchiffon;
+    padding: 10px;
 }
 
 .projects-container {
     display: flex;
-    
     padding: 12px;
     margin: 12px;
     display: flex;
     min-height: 250px;
     justify-content: center;
-    /* width: 75%; */
     max-height: 750px;
     background-color: lemonchiffon;
 }
@@ -80,6 +73,7 @@ body h1 {
     width: 100%;
     height: 20px;
     background-color: lemonchiffon;
+    text-align: center;
 }
 
 .projects-container img {
@@ -93,12 +87,11 @@ body h1 {
 .aboutme-container img {
     display: flex;
     max-width: 25%;
+    padding: 5px;
 }
 
-.nav {
-   
-    display: inline;
-    /* position: absolute; top: 15px; */
+.main-nav {
+    justify-content: space-between;
 }
 
 
