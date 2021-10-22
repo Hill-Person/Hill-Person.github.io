@@ -1,7 +1,4 @@
-.projects-container {
-    text-justify: center;
-    min-height: 100vh;
-}
+
 
 body {
     font-family: monospace;
@@ -15,3 +12,6 @@ body {
     min-height: 100vh;
 }
 
+.about-list {
+    list-style: none;
+}
